@@ -2,12 +2,20 @@ import React from 'react'
 
 const App = () => {
   return (
-      <div>AI Blogs
-    <ol>
-      <li>Agentic Ai</li>
-      <li>Generative Ai</li>
-      <li>LNM</li>
-    </ol></div>
+     <>
+     <h1>CONTACT FORM</h1>
+     
+     Name:<input type="text" placeholder='write your name...'/><br />
+     Email:<input type="email" name="" id="" /><br />
+     Message:<input type="text" /><br />
+     Paasword:<input type="password" name="" id="" /><br />
+     <input type="submit" value="" />
+  
+
+
+
+    
+     </>
   )
 }
 
